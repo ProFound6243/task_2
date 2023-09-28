@@ -10,63 +10,71 @@
 <body>
     <div class="container mx-auto relative p-4">
         <header class="relative mt-8">
-            <div class="social-box flex">
-                <div class="social flex gap-4 mr-auto">
-                    <div class="relative share">
-                        <span>
-                            share
-                        </span>
-                        <i class="bi bi-share"></i>
-                    </div>
-                    <ul class="relative flex flex-nowrap gap-4">
-                        <li>
-                            <a class="text-xl" href="https://linkedin.com">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-xl" href="https://twitter.com">
-                                <i class="bi bi-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-xl" href="https://gmail.com">
-                                <i class="bi bi-envelope-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-xl" href="https://facebook.com">
-                                <i class="bi bi-facebook"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="relative ">
+                <ul class="relative">
+                    <li class="relative inline-block mr-2">
+                        <a href=""
+                           class="relative block w-auto h-8 text-xl text-[#1A1A1A] font-['Roboto-Medium']">
+                            <span>
+                                share
+                            </span>
+                            <i class="bi bi-share"></i>
+                        </a>
+                    </li>
+                    <li class="relative inline-block mr-2">
+                        <a href="https://linkedin.com"
+                            class="relative w-8 h-8 block grid place-content-center text-white bg-[#000000] rounded-full">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="relative inline-block mr-2">
+                        <a href="https://twitter.com"
+                           class="relative w-8 h-8 block grid place-content-center text-white bg-[#000000] rounded-full">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="relative inline-block mr-2">
+                        <a href="https://gmail.com"
+                           class="relative w-8 h-8 block grid place-content-center text-white bg-[#000000] rounded-full">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="relative inline-block mr-2">
+                        <a href="https://facebook.com"
+                           class="relative w-8 h-8 block grid place-content-center text-white bg-[#000000] rounded-full">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
+
+
+
         <form action="#" method="post" class="relative grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
             <label for="category" class="relative grid-cols-1">
-                <span class="text-xs text-neutral-500">category</span>
-                <select class="block appearance-none  border-b py-2 focus:outline-none placeholder:text-neutral-500 w-full md:min-w-[196px]" id="grid-state">
+                <span class="text-xs text-neutral-500 font-['Roboto_Medium']">category</span>
+                <select class=" font-['Roboto_Regular'] block appearance-none border-[#9B9B9B] border-b py-2 focus:outline-none placeholder:text-[#636363] w-full md:min-w-[196px]" id="grid-state">
                     <option>All categories</option>
                     <option>Uzbekistan</option>
                     <option>Russian</option>
                     <option>USA</option>
                 </select>
-                <i class="bi bi-chevron-compact-down absolute right-0 top-2/4 text-blue-500"></i>
+                <i class="bi bi-chevron-down absolute right-0 top-2/4 text-[#07ACFF] text-xs"></i>
             </label>
             <label for="year" class="relative grid grid-cols-1">
-                <span class="text-xs text-neutral-500">year</span>
-                <select class="block appearance-none  border-b py-2 focus:outline-none placeholder:text-neutral-500 w-full md:min-w-[128px]" id="grid-state">
+                <span class="text-xs text-neutral-500 font-['Roboto_Medium']">year</span>
+                <select class="font-['Roboto_Regular'] block appearance-none border-[#9B9B9B] border-b py-2 focus:outline-none placeholder:text-[#636363] w-full md:min-w-[128px]" id="grid-state">
                     <option>All</option>
                     <option>2024</option>
                     <option>2023</option>
                     <option>2022</option>
                 </select>
-                <i class="bi bi-chevron-compact-down absolute right-0 top-2/4 text-blue-500"></i>
+                <i class="bi bi-chevron-down absolute right-0 top-2/4 text-[#07ACFF] text-xs"></i>
             </label>
             <label for="month" class="relative grid grid-cols-1">
-                <span class="text-xs text-neutral-500">month</span>
-                <select class="block appearance-none  border-b py-2 focus:outline-none placeholder:text-neutral-500 w-full md:min-w-[128px]" id="grid-state">
+                <span class="text-xs text-neutral-500 font-['Roboto_Medium']">month</span>
+                <select class="font-['Roboto_Regular'] block appearance-none border-[#9B9B9B] border-b py-2 focus:outline-none placeholder:text-[#636363] w-full md:min-w-[128px]" id="grid-state">
                     <option>All</option>
                     <option>1</option>
                     <option>2</option>
@@ -81,133 +89,111 @@
                     <option>11</option>
                     <option>12</option>
                 </select>
-                <i class="bi bi-chevron-compact-down absolute right-0 top-2/4 text-blue-500"></i>
+                <i class="bi bi-chevron-down absolute right-0 top-2/4 text-[#07ACFF] text-xs"></i>
             </label>
             <div class="relative button-box mt-auto mb-2">
-                <button class="text-blue-500 md:ml-8">Clear</button>
+                <button class="text-[#07ACFF] md:ml-8 font-['Roboto_Medium']">Clear</button>
             </div>
         </form>
+
+
+
         <div class="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
+
             <div class="model grid grid-cols-1 relative">
                 <figure>
                     <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
                 </figure>
                 <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
+                    <datetime class="text-xs text-[#000000] md:mr-auto font-['Roboto-Medium']">Aug 15, 2023</datetime>
+                    <span class="text-xs text-[#000000] md:ml-auto font-['Roboto-Medium']">Lorem Ipsum - 5 min read</span>
                 </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
-            </div>
-            <div class="model grid grid-cols-1 relative">
-                <figure>
-                    <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
-                </figure>
-                <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
-                </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
-            </div>
-            <div class="model grid grid-cols-1 relative">
-                <figure>
-                    <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="Image">
-                </figure>
-                <div class="relative grid grid-cols-1 md:grid-cols-2 mt-2">
-                    <datetime class="text-xs text-neutral-500 md:mr-auto">Aug 15, 2023</datetime>
-                    <span class="text-xs text-neutral-500 md:ml-auto">Lorem Ipsum - 5 min read</span>
-                </div>
-                <h3 class="font-medium text-neutral-900 mt-4">Lorem ipsum dolor sit amet consectetur</h3>
-                <p class="text-neutral-500 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
-                <a href="#" class="relative text-neutral-900 mt-4">Read more <span class="text-blue-500"><i class="bi bi-arrow-right"></i></span></a>
-                
+                <h3 class="font-[900] text-[#1A1A1A] mt-4 font-['Roboto_Black']">Lorem ipsum dolor sit amet consectetur</h3>
+                <p class="text-[#636363] mt-2 font-['Roboto_Regular']">Lorem ipsum dolor sit amet consectetur, adipisicing elit. amet consectetur, adipisicing elit.</p>
+                <a href="#" class="relative text-[#1A1A1A] mt-4 font-['Roboto-Medium']">Read more <span class="text-[#07ACFF]"><i class="bi bi-arrow-right"></i></span></a>
             </div>
         </div>
         <div class="pagnation-box mt-8">
-            <ul class="list-style-none flex gap-4 place-content-center">
+            <ul class="list-style-none flex gap-4 place-content-center font-['Roboto_Regular']">
                 <li>
                   <a
                     class="relative "
@@ -260,5 +246,6 @@
               </ul>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/376f531ce0.js" crossorigin="anonymous"></script>
 </body>
 </html>
